@@ -91,7 +91,7 @@ def compress_image(image, clusters):
 
 
 def main():
-    path = "C:/Users/scday/Documents/coding/Machine_Learning/CS229/ps3/"
+    path = "Machine_Learning/CS229/ps3/"
     path_large = path + "mandrill-large.tiff"
     path_small = path + "mandrill-small.tiff"
 

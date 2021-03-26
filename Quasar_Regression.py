@@ -76,7 +76,7 @@ def find_spectra_neighbours(spectra_set, spectra):
 
     return neighbours
 
-data_dir = "C:/Users/scday/Documents/coding/Machine_Learning/CS229/ps1/"
+data_dir = "Machine_Learning/CS229/ps1/"
 
 train_data = pd.read_csv(data_dir + "quasar_train.csv")
 test_data = pd.read_csv(data_dir + "quasar_test.csv")

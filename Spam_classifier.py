@@ -107,7 +107,7 @@ def evaluate(output, label):
 def main():
 
     training_sets = [50, 100, 200, 400, 800, 1400]
-    data_path = "C:/Users/scday/Documents/coding/Machine_Learning/CS229/ps2/spam_data/spam_data/"
+    data_path = "Machine_Learning/CS229/ps2/spam_data/spam_data/"
 
     matrix_train_paths = []
     for set in training_sets:

@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plot
 
-data_dir = "C:/Users/scday/Documents/coding/Machine_Learning/CS229/ps1/"
+data_dir = "Machine_Learning/CS229/ps1/"
 train_input_data_file = "logistic_x.txt"
 train_value_data_file = "logistic_y.txt"
 

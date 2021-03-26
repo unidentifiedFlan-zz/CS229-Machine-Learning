@@ -53,7 +53,7 @@ def logistic_regression(X, Y):
     return theta
 
 def main():
-    dir = "C:/Users/scday/Documents/coding/Machine_Learning/CS229/ps2/"
+    dir = "Machine_Learning/CS229/ps2/"
     print('==== Training model on data set A ====')
     Xa, Ya = load_data(dir+'data_a.txt')
     thetaA = logistic_regression(Xa, Ya)

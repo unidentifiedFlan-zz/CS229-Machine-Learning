@@ -162,7 +162,7 @@ def one_hot_labels(labels):
 def main():
     np.random.seed(100)
 
-    data_path = "C:/Users/scday/Documents/coding/Machine_Learning/CS229/ps4/DeepLearning/"
+    data_path = "Machine_Learning/CS229/ps4/DeepLearning/"
 
     trainData, trainLabels = readData(data_path + 'images_train.csv', data_path + 'labels_train.csv')
     trainLabels = one_hot_labels(trainLabels)
